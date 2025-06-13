@@ -12,6 +12,7 @@
       padding: 0;
       background: #f9fafb;
       color: #1f2937;
+      background-color: #f8f9fa;
     }
     header {
       background-color: #1e3a8a;
@@ -23,6 +24,21 @@
       max-width: 960px;
       margin: 2rem auto;
       padding: 0 1rem;
+    }
+     h2 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      color: #0d6efd;
+    }
+     article {
+      margin-bottom: 2rem;
+      background-color: #ffffff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+     ul {
+      padding-left: 1.5rem;
     }
     h1, h2, h3 {
       color: #111827;
@@ -58,8 +74,9 @@
   </style>
 </head>
 <body>
+  <div class="container mt-5 mb-5">
   <header>
-    <h1>Backend & Cloud Engineer</h1>
+    <h1>Backend Developer | Cloud Engineer</h1>
     <p>Python | Django | AWS | Terraform | CI/CD</p>
   </header>
 
@@ -142,7 +159,80 @@
         </ul>
       </div>
     </section>
+    <!-- Experience Section -->
+    <section id="experience">
+      <h2>Experience</h2>
 
+      <article>
+        <h4>Software Development Engineer, Flotech Controls Pte Ltd</h4>
+        <p><strong>Oct 2022 – Mar 2024</strong> | Singapore</p>
+        <ul>
+          <li>Developed RESTful APIs with Python and Django ensuring scalability and compliance.</li>
+          <li>Automated workflows, integrated large-scale data pipelines.</li>
+          <li>Wrote optimized SQL/PostgreSQL queries and managed AWS infrastructure.</li>
+          <li>Implemented caching, security, and improved system stability by 80%.</li>
+          <li>Contributed to a 20% increase in sales through system improvements.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h4>Lecturer, Open University</h4>
+        <p><strong>June 2021 – Sep 2022</strong> | Sri Lanka</p>
+        <ul>
+          <li>Designed React Native projects, built MySQL databases.</li>
+          <li>Developed mobile apps and prepared academic materials.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h4>Software Engineer, Informatics Holdings Limited</h4>
+        <p><strong>Mar 2017 – May 2021</strong> | Sri Lanka</p>
+
+        <strong>Python Team:</strong>
+        <ul>
+          <li>Developed secure Django APIs, implemented MySQL databases.</li>
+          <li>Used Docker for deployment and Agile for project management.</li>
+        </ul>
+
+        <strong>Oracle Team:</strong>
+        <ul>
+          <li>Built desktop applications using Oracle Forms & Reports (10g–12c).</li>
+          <li>Managed PL/SQL queries, deployments, and version control with SVN.</li>
+        </ul>
+      </article>
+    </section>
+  <!-- Project Experience Section -->
+    <section id="projects">
+      <h2>Project Experience</h2>
+
+      <article>
+        <h4>Waterwise – Smart Water Management for PUB Singapore</h4>
+        <p><strong>Technologies:</strong> Azure, APIM, Terraform, Python, Django, SQL, IoT</p>
+        <ul>
+          <li>Developed Django APIs to collect, transfer, and monitor real-time water data from 2000 RTUs.</li>
+          <li>Used Azure APIM for traffic management and Terraform for infrastructure automation.</li>
+          <li>Built alerting systems and secure token refresh mechanisms.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h4>WQ Profiling – Water Quality for PUB Singapore</h4>
+        <p><strong>Technologies:</strong> AWS, Docker, Terraform, PostgreSQL, Python, Django, Flask, GitLab</p>
+        <ul>
+          <li>Improved website performance by 80%, deployed using Docker & Terraform on AWS.</li>
+          <li>Automated monthly and daily water quality reports using Django and Flask.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h4>NEX & WQA600 – Website Optimization</h4>
+        <p><strong>Technologies:</strong> Python, PHP, CSS, HTML, SQL</p>
+        <ul>
+          <li>Enhanced UI/UX, fixed bugs, and optimized back-end performance of legacy platforms.</li>
+        </ul>
+      </article>
+    </section>
+  </div>
     <section>
       <h2>Contact Me</h2>
       <div class="card">
@@ -153,7 +243,7 @@
       </div>
     </section>
   </div>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <footer>
     &copy; Kamsharine Backend & Cloud Engineer – Built with ❤️
   </footer>
